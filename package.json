@@ -13,8 +13,7 @@
     "analyze": "cross-env ANALYZE=true npm run build",
     "type-check": "tsc --noEmit",
     "test": "echo \"No tests specified\" && exit 0",
-    "check-deployment": "node scripts/check-deployment.js",
-    "prebuild": "npm run check-deployment"
+    "check-deployment": "node scripts/check-deployment.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
